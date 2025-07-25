@@ -6,6 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+     crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpg" href="images/Microsoft_Windows_Mini-Icon.png">
 
@@ -13,7 +19,7 @@
 </head>
 <body>
     <!-- LINKS -->
-    <h5>Go to...</h5>
+    <!-- <h5>Go to...</h5>
     <ul class="noButtons color">
         <li class="options"><a class="optionLinks" href="index.html" title="Go to My Personal Website!">My Personal Website!!</a></li>
     </ul>
@@ -26,340 +32,402 @@
         <li class="options"><a class="optionLinks" href="#win-me" title="Windows Millennium Edition!">Windows Millennium Edition</a></li>
         <li class="options"><a class="optionLinks" href="#win-xp" title="Windows XP!">Windows XP</a></li>
         <li class="options"><a class="optionLinks" href="#vista-and-seven" title="Vista and 7!">Vista/7</a></li>
-    </ul>
+    </ul> -->
 
-        <h1>Welcome to the Wonderful World of Windows!</h1>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">The Wonderful World of Windows!</a>
 
-    <p class="paragraphCenter">
-        <i><strong>Get ready to experience the best, experience Microsoft Windows!</strong></i>
-    </p>
+            <button class="navbar-toggler" 
+                type="button" 
+                    data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                                aria-expanded="false" aria-label="Toggle navigation">
 
-    <p class="paragraphCenter">
-        For most Windows versions up to Windows XP, it will be accessible via <a class="no-padding" href="https://copy.sh/v86/">copy.sh/v86!</a> 
-    </p>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <p class="paragraphCenter">
-        For others, starting with Windows XP, it will be accessible as a website via the Wayback Machine!
-    </p>
-
-    <!-- Windows 95 -->
-    <h2 id="win-95"><a href="https://en.wikipedia.org/wiki/Windows_95">Windows 95</a></h2>
-    <p>
-        Windows 95 has been the well-known operating system launched in 1995. Some major features introduced
-        to this operating system include a redesigned shell interface, the first Start menu,
-        Plug-And-Play support, and "The Microsoft Sound" as a startup sound, created by Brian Eno.
-    </p>
-    <div class="center">
-        <img src="images/Windows95.jpeg" alt="Windows 95" height="500" title="Windows 95 at the Microsoft Visitor Center in Redmond, Washington">
-    </div>
-
-
-    <h5 class="paragraphCenter">Windows 95 at the Microsoft Visitor Center in Redmond, Washington.</h5>
-
-    <a class="center" href="https://copy.sh/v86/?profile=windows95">
-        Click here to explore Windows 95 on the web!
-    </a>
-
-    <hr>
-
-    <!-- Windows NT Workstation Version 4.0 -->
-    <h2 id="win-nt-4"><a href="https://en.wikipedia.org/wiki/Windows_NT_4.0">Windows NT Workstation Version 4.0</a></h2>
-    <p>
-        Designed for business users,
-        Windows NT Workstation Version 4.0 is suitable for intensive computing tasks
-        and servers. It comes with the Windows 95 interface integrated into the Windows NT
-        architecture, making this operating system more stable and easy to use. Windows NT 4.0
-        comes in multiple editions: Workstation, Server, and Embedded. It supports Alpha,
-        MIPS, Intel, or PowerPC CPUs.
-    </p>
-    <a class="center" href="https://copy.sh/v86/?profile=windowsnt4">
-        Click here to explore Windows NT Workstation Version 4.0 on the web!
-    </a>
-
-    <hr>
-
-    <!-- Windows 98 -->
-    <h2 id="win-98"><a href="https://en.wikipedia.org/wiki/Windows_98">Windows 98</a></h2>
-    <p>
-        Released in 1998, Windows 98 is an improved version of the Windows 9x family.
-        It comes with new features such as an improved user interface, shell
-        enhancements, web integrations, and a robust USB support. Windows 98 can also
-        support TV tuners through WebTV. Windows 98 Second Edition was released one year later,
-        in 1999; it comes with improved USB support, improved audio and modem support, and
-        an introduction to Internet Explorer 5. 
-    </p>
-    <p>
-        Windows 98 also comes with the dedicated <a class="no-padding" href="https://en.wikipedia.org/wiki/ACPI">ACPI</a> support
-        which allows your computer to either hibernate or go into the stand-by mode, as well as
-        the multi-monitor support, which uses up to 9 monitors from one PC.
-    </p>
-
-    <a class="center" href="https://copy.sh/v86/?profile=windows98">
-        Click here to explore Windows 98 on the web!
-    </a>
-
-    <hr>
-
-    <h2 id="win-2000"><a href="https://en.wikipedia.org/wiki/Windows_2000">Windows 2000 Professional</a></h2>
-
-    <p>
-        Built on Windows NT Technology, Windows 2000 Professional claims
-        to be one of the most successful operating systems to date. It comes with
-        an improved Plug-And-Play feature with full ACPI and Windows Driver Model
-        support, usability enhancements, and mulit-language support. It comes with
-        3 editions: Professional, Server Family, and Advanced Server.
-    </p>
-
-    <a class="center" href="https://copy.sh/v86/?profile=windows2000">
-        Click here to explore Windows 2000 Professional on the web!
-    </a>
-
-    <hr>
-
-    <!-- Windows Millennium Edition -->
-    <h2 id="win-me"><a href="https://en.wikipedia.org/wiki/Windows_Me">Windows Millennium Edition</a></h2>
-
-    <p>
-        Proven to be the last Windows 9x version, Windows Millennium Edition
-        is suitable for home computing needs.
-        It comes with improved boot times, Universal Plug-And-Play,
-        Internet-based games, System Restore (which restores to the previous
-        system from what was recently changed), and Automatic Updates. It also has
-        enhanced multimedia features, such as...
-    </p>
-    <div class="center">
-        <ul>
-            <li>Windows Media Player 7</li>
-                <ul>
-                    <li>
-                        Allows users to watch videos, listen to their favorite music,
-                        or make their own CDs!
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" aria-current="page" href="index.html">Bao</a>
                     </li>
-                </ul>
-            <li>Windows Movie Maker</li>
-                <ul>
-                    <li>
-                        Designed to edit videos together with music,
-                        videos, and titles!
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-95">95</a>
                     </li>
-                </ul>
-            <li>Windows DVD Player</li>
-                <ul>
-                    <li>
-                        Plays DVD videos! Does not require a dedicated
-                        decoder for DVD playback.
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-nt-4">NT</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-98">98</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-2000">2000</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-me">Millennium Edition</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#win-xp">XP</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-2" href="#vista-and-seven">Vista and 7</a>
+                    </li>
+                    
                 </ul>
-        </ul>
-    </div>
+            </div>
+        </div>
+    </nav>
 
-    <a class="center" href="https://copy.sh/v86/?profile=windows-me">
-        Click here to explore Windows Millennium Edition on the web!
-    </a>
+    <div class="container">
+        <main>
+            <div class="alert alert-warning" role="alert">
+               <strong>ATTENTION!!!</strong> This website is currently going under major development; 
+               not all links are working as of now.
+            </div>
 
-    <hr>
+            <h1>Welcome to the Wonderful World of Windows!</h1>
 
-    <!-- Windows XP -->
+            <p class="paragraphCenter">
+                <i><strong>Get ready to experience the best, experience Microsoft Windows!</strong></i>
+            </p>
 
-    <h2 id="win-xp"><a href="https://en.wikipedia.org/wiki/Windows_XP">Windows XP</a></h2>
-    <p>
-        Windows XP is the most popular operating system created by Microsoft. Launched on
-        October 25th, 2001, XP unites both business and home users thanks to the power of
-        Windows NT technology.
-        It provides Wi-Fi and Bluetooth support for better connectivity. The Start menu has
-        been revamped, now showing frequently used applications, recently opened documents, and
-        so much more. The "Switch Users" feature allows computer users to switch to the other user
-        without having to close all applications and log out.
-    </p>
+            <p class="paragraphCenter">
+                For most Windows versions up to Windows XP, it will be accessible via <a class="no-padding" href="https://copy.sh/v86/">copy.sh/v86!</a> 
+            </p>
 
-    <p class="paragraphCenter">
-        Windows XP comes with two client editions:
-    </p>
+            <p class="paragraphCenter">
+                For others, starting with Windows XP, it will be accessible as a website via the Wayback Machine!
+            </p>
 
-    <div class="center">
-        <ul>
-            <li>Home Edition</li>
+            <!-- Windows 95 -->
+            <h2 id="win-95"><a href="https://en.wikipedia.org/wiki/Windows_95">Windows 95</a></h2>
+            <p>
+                Windows 95 has been the well-known operating system launched in 1995. Some major features introduced
+                to this operating system include a redesigned shell interface, the first Start menu,
+                Plug-And-Play support, and "The Microsoft Sound" as a startup sound, created by Brian Eno.
+            </p>
+            <div class="center">
+                <img src="images/Windows95.jpeg" alt="Windows 95" height="500" title="Windows 95 at the Microsoft Visitor Center in Redmond, Washington">
+            </div>
+
+
+            <h5 class="paragraphCenter">Windows 95 at the Microsoft Visitor Center in Redmond, Washington.</h5>
+
+            <a class="center" href="https://copy.sh/v86/?profile=windows95">
+                Click here to explore Windows 95 on the web!
+            </a>
+
+            <hr>
+
+            <!-- Windows NT Workstation Version 4.0 -->
+            <h2 id="win-nt-4"><a href="https://en.wikipedia.org/wiki/Windows_NT_4.0">Windows NT Workstation Version 4.0</a></h2>
+            <p>
+                Designed for business users,
+                Windows NT Workstation Version 4.0 is suitable for intensive computing tasks
+                and servers. It comes with the Windows 95 interface integrated into the Windows NT
+                architecture, making this operating system more stable and easy to use. Windows NT 4.0
+                comes in multiple editions: Workstation, Server, and Embedded. It supports Alpha,
+                MIPS, Intel, or PowerPC CPUs.
+            </p>
+            <a class="center" href="https://copy.sh/v86/?profile=windowsnt4">
+                Click here to explore Windows NT Workstation Version 4.0 on the web!
+            </a>
+
+            <hr>
+
+            <!-- Windows 98 -->
+            <h2 id="win-98"><a href="https://en.wikipedia.org/wiki/Windows_98">Windows 98</a></h2>
+            <p>
+                Released in 1998, Windows 98 is an improved version of the Windows 9x family.
+                It comes with new features such as an improved user interface, shell
+                enhancements, web integrations, and a robust USB support. Windows 98 can also
+                support TV tuners through WebTV. Windows 98 Second Edition was released one year later,
+                in 1999; it comes with improved USB support, improved audio and modem support, and
+                an introduction to Internet Explorer 5. 
+            </p>
+            <p>
+                Windows 98 also comes with the dedicated <a class="no-padding" href="https://en.wikipedia.org/wiki/ACPI">ACPI</a> support
+                which allows your computer to either hibernate or go into the stand-by mode, as well as
+                the multi-monitor support, which uses up to 9 monitors from one PC.
+            </p>
+
+            <a class="center" href="https://copy.sh/v86/?profile=windows98">
+                Click here to explore Windows 98 on the web!
+            </a>
+
+            <hr>
+
+            <h2 id="win-2000"><a href="https://en.wikipedia.org/wiki/Windows_2000">Windows 2000 Professional</a></h2>
+
+            <p>
+                Built on Windows NT Technology, Windows 2000 Professional claims
+                to be one of the most successful operating systems to date. It comes with
+                an improved Plug-And-Play feature with full ACPI and Windows Driver Model
+                support, usability enhancements, and mulit-language support. It comes with
+                3 editions: Professional, Server Family, and Advanced Server.
+            </p>
+
+            <a class="center" href="https://copy.sh/v86/?profile=windows2000">
+                Click here to explore Windows 2000 Professional on the web!
+            </a>
+
+            <hr>
+
+            <!-- Windows Millennium Edition -->
+            <h2 id="win-me"><a href="https://en.wikipedia.org/wiki/Windows_Me">Windows Millennium Edition</a></h2>
+
+            <p>
+                Proven to be the last Windows 9x version, Windows Millennium Edition
+                is suitable for home computing needs.
+                It comes with improved boot times, Universal Plug-And-Play,
+                Internet-based games, System Restore (which restores to the previous
+                system from what was recently changed), and Automatic Updates. It also has
+                enhanced multimedia features, such as...
+            </p>
+            <div class="center">
                 <ul>
-                    <li>Designed for home computing needs</li>
-                </ul>
-            <li>Professional</li>
-                <ul>
-                    <li>Comes with multiple features not found in Home Edition, such as:</li>
+                    <li>Windows Media Player 7</li>
                         <ul>
-                            <li>Remote Desktop, which connects the user's PC to operate by another user via the Internet</li>
-                            <li>Offline Files and Folders</li>
-                            <li>Group Policies</li>
-                            <li>Encrypting File System</li>
+                            <li>
+                                Allows users to watch videos, listen to their favorite music,
+                                or make their own CDs!
+                            </li>
+                        </ul>
+                    <li>Windows Movie Maker</li>
+                        <ul>
+                            <li>
+                                Designed to edit videos together with music,
+                                videos, and titles!
+                            </li>
+                        </ul>
+                    <li>Windows DVD Player</li>
+                        <ul>
+                            <li>
+                                Plays DVD videos! Does not require a dedicated
+                                decoder for DVD playback.
+                            </li>
                         </ul>
                 </ul>
-        </ul>
+            </div>
+
+            <a class="center" href="https://copy.sh/v86/?profile=windows-me">
+                Click here to explore Windows Millennium Edition on the web!
+            </a>
+
+            <hr>
+
+            <!-- Windows XP -->
+
+            <h2 id="win-xp"><a href="https://en.wikipedia.org/wiki/Windows_XP">Windows XP</a></h2>
+            <p>
+                Windows XP is the most popular operating system created by Microsoft. Launched on
+                October 25th, 2001, XP unites both business and home users thanks to the power of
+                Windows NT technology.
+                It provides Wi-Fi and Bluetooth support for better connectivity. The Start menu has
+                been revamped, now showing frequently used applications, recently opened documents, and
+                so much more. The "Switch Users" feature allows computer users to switch to the other user
+                without having to close all applications and log out.
+            </p>
+
+            <p class="paragraphCenter">
+                Windows XP comes with two client editions:
+            </p>
+
+            <div class="center">
+                <ul>
+                    <li>Home Edition</li>
+                        <ul>
+                            <li>Designed for home computing needs</li>
+                        </ul>
+                    <li>Professional</li>
+                        <ul>
+                            <li>Comes with multiple features not found in Home Edition, such as:</li>
+                                <ul>
+                                    <li>Remote Desktop, which connects the user's PC to operate by another user via the Internet</li>
+                                    <li>Offline Files and Folders</li>
+                                    <li>Group Policies</li>
+                                    <li>Encrypting File System</li>
+                                </ul>
+                        </ul>
+                </ul>
+            </div>
+
+            <p class="paragraphCenter">
+                Additionally, Windows XP comes in several editions:
+            </p>
+
+            <div class="center">
+                <ul>
+                    <li>Media Center Edition</li>
+                        <ul >
+                            <li>
+                                Allows users to watch live and recorded TV, view pictures, 
+                                and listen to music with Windows Media Center.
+                            </li>
+                        </ul>
+                    <li>Tablet PC Edition</li>
+                        <ul>
+                            <li>
+                                Designed for convertible laptops, it supports handwritten notes
+                                and portrait-oriented screens. Windows XP Tablet PC Edition comes
+                                with Windows Journal, Sticky Notes, and more.
+                            </li>
+                        </ul>
+                    <li>Professional x64 Edition</li>
+                        <ul>
+                            <li>
+                                Powered by the Windows Server 2003 architecture,
+                                Windows XP Professional x64 Edition packs the punch that is suitable
+                                for intensive computing tasks. It supports up to two
+                                physical CPUs, faster encoding for audio and video, and much more.
+                            </li>
+                        </ul>
+                    <li>Edition N and KN</li>
+                        <ul>
+                            <li>
+                                For South Korea and the European Union countries. It functions
+                                the same as the original Windows XP, but without Windows Media
+                                Technologies. Instead, Microsoft encourages the users within these countries
+                                to download third-party media players and instant messaging apps.
+                            </li>
+                        </ul>
+                </ul>
+            </div>
+
+            <a class="center" href="https://web.archive.org/web/20011025145550/http://microsoft.com/windowsxp/">
+                Click here to explore the Windows XP website, courtesy of Wayback Machine from the Internet Archive!
+            </a>
+
+            <hr>
+
+            <h2 id="vista-and-seven">
+                <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_Vista">Windows Vista</a>
+                and <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_7">Windows 7</a>
+            </h2>
+
+            <p>
+                Windows Vista was released in January 2007. Some major changes
+                to this operating system include Windows Aero, a graphical user interfacae
+                that resembles the "window glasses," Windows Sidebar, a gadget software
+                with clocks, calendars, etc., and Windows Search, which allows users
+                to quickly search for documents/apps without having to look at all programs
+                and/or documents. Internet Explorer 7 was also a major release of the browser;
+                it includes the RSS platform, the Quick Tabs feature, and a steamlined user
+                interface. Windows Media Center was included in Windows Vista Home Premium
+                and Ultimate editions, excluding Home Basic and Business.
+            </p>
+
+            <p class="paragraphCenter">
+                Windows Vista comes with four client editions:
+            </p>
+
+            <div class="center">
+                <ul>
+                    <li>Home Basic</li>
+                        <ul>
+                            <li>
+                                Designed for basic computing needs, such as web surfing
+                                and checking emails.
+                            </li>
+                        </ul>
+                    <li>Home Premium</li>
+                        <ul>
+                            <li>
+                                Marketed as "the most preferred version of Windows,"
+                                Home Premium comes with the fully-integrated Windows Aero
+                                themes, premium games, Windows Media Center, and
+                                touchscreen support.
+                            </li>
+                        </ul>
+                    <li>Business</li>
+                        <ul>
+                            <li>
+                                Windows Vista Business comes with Windows Fax and Scan,
+                                Remote Desktop, Internet Information Services, and more,
+                                so that your business can thrive and grow.
+                            </li>
+                        </ul>
+                    <li>Ultimate</li>
+                        <ul>
+                            <li>
+                                The complete version of Windows. Ultimate comes with all
+                                features found in Home Basic, Home Premium, and Business,
+                                plus BitLocker, mulit-language support, and the so-called
+                                "Windows Ultimate Extras," the optional features that include
+                                DreamScene, more premium games, and so much more!
+                            </li>
+                        </ul>
+                </ul>
+            </div>
+
+            <p>
+                Two years after Vista was released, listening from criticisms and complaints by users,
+                Microsoft released Windows 7 in October 22nd, 2009. It is rather an "improved version of Vista"
+                and comes with several new features, such as the revamped taskbar for easy accessibility,
+                more themes and sound schemes, and so much more.
+            </p>
+
+            <p class="paragraphCenter">
+                Windows 7 comes in 4 consumer editions:
+            </p>
+
+            <div class="center">
+                <ul>
+                    <li>Starter</li>
+                        <ul>
+                            <li>
+                                Designed for netbooks, Windows 7 Starter is suitable
+                                for users with basic home computing needs, such as the ability
+                                to surf the web, check emails, or listen to their favorite music.
+                            </li>
+                        </ul>
+                    <li>Home Premium</li>
+                        <ul>
+                            <li>
+                                The most preferred version of Windows. Home Premium comes with
+                                Internet Explorer 8, Windows Media Player 12, the revamped Windows Media Center
+                                for live TV content, and multi-touch support.
+                            </li>
+                        </ul>
+                    <li>Professional</li>
+                        <ul>
+                            <li>
+                                Includes all features found in Home Premium, plus the ability
+                                to run older applications through 
+                                <a class="no-padding" href="https://en.wikipedia.org/wiki/Virtual_PC#Windows_XP_Mode">Windows XP Mode</a>,
+                                a virtual machine package containing the pre-installed copy of Windows XP Professional,
+                                Service Pack 3, as a guest operating system. Windows XP Mode was made available
+                                to download free of charge, for users of Windows 7 Professional, Enterprise, and Ultimate.
+                            </li>
+                        </ul>
+                    <li>Ultimate</li>
+                        <ul>
+                            A complete version of Windows. Ultimate comes with all features found
+                            in Home Premium and Professional, plus BitLocker and
+                            mulit-language support.
+                        </ul>
+                </ul>
+            </div>
+
+            <p class="paragraphCenter"><a class="no-padding" href="https://web.archive.org/web/20070202011646/http://microsoft.com/windows/products/windowsvista/default.mspx">
+                Looking for a website for Windows Vista? Go here!
+            </a></p>
+
+            
+            <p class="paragraphCenter"><a class="no-padding" href="https://web.archive.org/web/20091028145302/http://www.microsoft.com/Windows/windows-7/">
+                Looking for a website for Windows 7? Go here!
+            </a></p>
+        </main>
     </div>
+    <!-- Warning alert that the website is currently under major development -->
 
-    <p class="paragraphCenter">
-        Additionally, Windows XP comes in several editions:
-    </p>
-
-    <div class="center">
-        <ul>
-            <li>Media Center Edition</li>
-                <ul >
-                    <li>
-                        Allows users to watch live and recorded TV, view pictures, 
-                        and listen to music with Windows Media Center.
-                    </li>
-                </ul>
-            <li>Tablet PC Edition</li>
-                <ul>
-                    <li>
-                        Designed for convertible laptops, it supports handwritten notes
-                        and portrait-oriented screens. Windows XP Tablet PC Edition comes
-                        with Windows Journal, Sticky Notes, and more.
-                    </li>
-                </ul>
-            <li>Professional x64 Edition</li>
-                <ul>
-                    <li>
-                        Powered by the Windows Server 2003 architecture,
-                        Windows XP Professional x64 Edition packs the punch that is suitable
-                        for intensive computing tasks. It supports up to two
-                        physical CPUs, faster encoding for audio and video, and much more.
-                    </li>
-                </ul>
-            <li>Edition N and KN</li>
-                <ul>
-                    <li>
-                        For South Korea and the European Union countries. It functions
-                        the same as the original Windows XP, but without Windows Media
-                        Technologies. Instead, Microsoft encourages the users within these countries
-                        to download third-party media players and instant messaging apps.
-                    </li>
-                </ul>
-        </ul>
-    </div>
-
-    <a class="center" href="https://web.archive.org/web/20011025145550/http://microsoft.com/windowsxp/">
-        Click here to explore the Windows XP website, courtesy of Wayback Machine from the Internet Archive!
-    </a>
-
-    <hr>
-
-    <h2 id="vista-and-seven">
-        <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_Vista">Windows Vista</a>
-        and <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_7">Windows 7</a>
-    </h2>
-
-    <p>
-        Windows Vista was released in January 2007. Some major changes
-        to this operating system include Windows Aero, a graphical user interfacae
-        that resembles the "window glasses," Windows Sidebar, a gadget software
-        with clocks, calendars, etc., and Windows Search, which allows users
-        to quickly search for documents/apps without having to look at all programs
-        and/or documents. Internet Explorer 7 was also a major release of the browser;
-        it includes the RSS platform, the Quick Tabs feature, and a steamlined user
-        interface. Windows Media Center was included in Windows Vista Home Premium
-        and Ultimate editions, excluding Home Basic and Business.
-    </p>
-
-    <p class="paragraphCenter">
-        Windows Vista comes with four client editions:
-    </p>
-
-    <div class="center">
-        <ul>
-            <li>Home Basic</li>
-                <ul>
-                    <li>
-                        Designed for basic computing needs, such as web surfing
-                        and checking emails.
-                    </li>
-                </ul>
-            <li>Home Premium</li>
-                <ul>
-                    <li>
-                        Marketed as "the most preferred version of Windows,"
-                        Home Premium comes with the fully-integrated Windows Aero
-                        themes, premium games, Windows Media Center, and
-                        touchscreen support.
-                    </li>
-                </ul>
-            <li>Business</li>
-                <ul>
-                    <li>
-                        Windows Vista Business comes with Windows Fax and Scan,
-                        Remote Desktop, Internet Information Services, and more,
-                        so that your business can thrive and grow.
-                    </li>
-                </ul>
-            <li>Ultimate</li>
-                <ul>
-                    <li>
-                        The complete version of Windows. Ultimate comes with all
-                        features found in Home Basic, Home Premium, and Business,
-                        plus BitLocker, mulit-language support, and the so-called
-                        "Windows Ultimate Extras," the optional features that include
-                        DreamScene, more premium games, and so much more!
-                    </li>
-                </ul>
-        </ul>
-    </div>
-
-    <p>
-        Two years after Vista was released, listening from criticisms and complaints by users,
-        Microsoft released Windows 7 in October 22nd, 2009. It is rather an "improved version of Vista"
-        and comes with several new features, such as the revamped taskbar for easy accessibility,
-        more themes and sound schemes, and so much more.
-    </p>
-
-    <p class="paragraphCenter">
-        Windows 7 comes in 4 consumer editions:
-    </p>
-
-    <div class="center">
-        <ul>
-            <li>Starter</li>
-                <ul>
-                    <li>
-                        Designed for netbooks, Windows 7 Starter is suitable
-                        for users with basic home computing needs, such as the ability
-                        to surf the web, check emails, or listen to their favorite music.
-                    </li>
-                </ul>
-            <li>Home Premium</li>
-                <ul>
-                    <li>
-                        The most preferred version of Windows. Home Premium comes with
-                        Internet Explorer 8, Windows Media Player 12, the revamped Windows Media Center
-                        for live TV content, and multi-touch support.
-                    </li>
-                </ul>
-            <li>Professional</li>
-                <ul>
-                    <li>
-                        Includes all features found in Home Premium, plus the ability
-                        to run older applications through 
-                        <a class="no-padding" href="https://en.wikipedia.org/wiki/Virtual_PC#Windows_XP_Mode">Windows XP Mode</a>,
-                        a virtual machine package containing the pre-installed copy of Windows XP Professional,
-                        Service Pack 3, as a guest operating system. Windows XP Mode was made available
-                        to download free of charge, for users of Windows 7 Professional, Enterprise, and Ultimate.
-                    </li>
-                </ul>
-            <li>Ultimate</li>
-                <ul>
-                    A complete version of Windows. Ultimate comes with all features found
-                    in Home Premium and Professional, plus BitLocker and
-                    mulit-language support.
-                </ul>
-        </ul>
-    </div>
-
-    <p class="paragraphCenter"><a class="no-padding" href="https://web.archive.org/web/20070202011646/http://microsoft.com/windows/products/windowsvista/default.mspx">
-        Looking for a website for Windows Vista? Go here!
-    </a></p>
-
-    
-    <p class="paragraphCenter"><a class="no-padding" href="https://web.archive.org/web/20091028145302/http://www.microsoft.com/Windows/windows-7/">
-        Looking for a website for Windows 7? Go here!
-    </a></p>
 
 
 
@@ -370,5 +438,12 @@
             trademarks of the Microsoft group of companies.
         </h6>
     </div>
+
+
+     <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+        crossorigin="anonymous"></script>
+
 </body>
 </html>

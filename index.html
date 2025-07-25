@@ -6,12 +6,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+     crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpg" href="images/ie5_icon_gif.jpg">
     <title>Welcome to Bao's Personal Website!</title>
 </head>
 <body>
-    <h5 class="paragraphToLeft">Go to...</h5>
+    <!-- <h5 class="paragraphToLeft">Go to...</h5>
     <ul class="noButtons color">
         <li class="options"><a class="optionLinks" href="windows.html" title="Go to The Wonderful World of Microsoft Windows!">The Wonderful World of Windows!</a></li>
     </ul>
@@ -24,301 +29,557 @@
         <li class="options"><a class="optionLinks" href="#my-videos" title="Go to Videos that have Me on It!">Videos that have Me on It!</a></li>
         <li class="options"><a class="optionLinks" href="#other-videos" title="Go to Other Videos that Enjoy me the Most!">Other Videos that Enjoy me the Most!</a></li>
         <li class="options"><a class="optionLinks" href="#contact-info" title="Contact Me!">Contact Me!</a></li>
-    </ul>
+    </ul> -->
+
+
+
+
+    <!-- Bootstrap Navigation Bar -->
     
-    <main>
-        <h1 id="introduction">Welcome to my personal website!</h1>
-        <h2>Created by Bao Duy Nguyen</h2>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bao</a>
+
+            <button class="navbar-toggler" 
+                type="button" 
+                    data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                                aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="#app-projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="#windows-xp-story">The Windows XP Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="#my-videos">Videos that have me on it!</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="#other-videos">Other videos!</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="#contact-info">Contact me!</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active m-3" href="windows.html">Windows!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Main Container -->
+    <div class="container">
+        <main>
+            
+            <!-- Warning alert that the website is currently under major development -->
+            <div class="alert alert-warning" role="alert">
+                <strong>ATTENTION!!!</strong> This website is currently going under major development; 
+                not all links are working as of now.
+            </div>
+
+            <h1 id="introduction">Welcome to my personal website!</h1>
+            <h2>Created by Bao Duy Nguyen</h2>
+
+            <!-- Carousel -->
+             <div id="carousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="images/BDN_PictureForMLK.jpg" class="d-block w-100" alt="Bao at the Winter 2025 Research Symposium in the HUB at the University of Washingotn">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bao at the Winter 2025 Research Symposium</h5>
+                            <p>Located at the heart of the HUB at the University of Washington Seattle Campus.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/SurfaceStudio.jpeg" class="d-block w-100" alt="A Surface Studio computer">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Surface Studio</h5>
+                            <p>The best all-in-one computer of all times</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/Windows95.jpeg" class="d-block w-100" alt="Windows 95 software">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Microsoft Windows 95</h5>
+                            <p>
+                                Start something special. Go to <a class="no-padding" href="windows.html">The Wonderful World of Windows</a> to learn more!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img 
+                        src="https://images.unsplash.com/photo-1583861346300-cb4b316528b8?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="d-block w-100"
+                        alt="A Coca-Cola bottle">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Always Coca-Cola?!</h5>
+                            <p>
+                                You know what I mean, right? Photo by 
+                                <a class="no-padding" href="https://unsplash.com/@junscythe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeanson Wong</a> 
+                                on 
+                                <a class="no-padding" href="https://unsplash.com/photos/coca-cola-zero-sugar-bottle-M-RTw6x5kzw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+             </div>
+
+            <p>
+                Hello, everyone! I'm Bao Duy Nguyen (he/him/his). I am a current college
+                student at <a class="no-padding" href="https://www.washington.edu/">the University of Washington - Seattle Campus</a> 
+                and <strong>I have been falling in love with computers that much!</strong>
+
+                <br></br>
+
+                Born in <a class="no-padding" href="https://en.wikipedia.org/wiki/Hu%E1%BA%BF"> Hue, Vietnam</a> 
+                in December 17th, 2004 but grew up in <a class="no-padding" href="https://en.wikipedia.org/wiki/Seattle">Seattle, Washington</a> 
+                for over 2 decades since the mid-2000s, I have found a passion in computers since
+                I first played around when I was an infant. From there, when I was an elementary school student,
+                I learned how to type things around to make my life easier to manage while going smooth as it can be.
+                Then, as a middle school student, I was landed at the technlology classroom to master some projects
+                with Microsoft PowerPoint, Excel, Scratch, Python, and video editing. When I transitioned to
+                the high school era, I learned to code with CSS, HTML, JavaScript, and Unity, followed by the App Labs and Java.
+                I took a year gap when I was a senior in my last high school year to take Biology 100 for the full year, as well as
+                a student's library assistance for the fall semester. Going to the University of Washington Seattle Campus
+                after graduating high school in the summer of 2023 felt like a dream to me because it was the campus that I 
+                have been wanting to go to since the school took us there for some field trips, and it is in the best interest
+                that I have adored so much. From Fall 2024 to Spring 2025, I finally took CSE 12x Introductory Courses
+                to learn more about Java, and I am glad to say that it brings me back to my computer science journey.
+
+                <br></br>
+
+                I have been utilizing resources at UW to help me succeed for the academic journey. These include 
+                <a class="no-padding" href="https://sites.math.washington.edu/msc/">The Math Study Center,</a> 
+                <a class="no-padding" href="https://depts.washington.edu/ic/wordpress/">The OMA&D Instructional Center,</a>
+                and <a class="no-padding" href="https://courses.cs.washington.edu/courses/cse14x/ta/ipl.php">The Introductory Programming Lab.</a>
+                These resources have helped me pass, and I'm pretty sure you will, too!
+
+                <br></br>
+
+                I have been an intern for a non-profit organization named 
+                <a class="no-padding" href="https://www.computingforall.org/">Computing For All</a> that can help me
+                set up JavaScript and build this personal website this summer under
+                <a class="no-padding" href="https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/seattle-youth-employment-program"> the Seattle Youth Employment Program.</a>
+                It is very fun to code with <a class="no-padding" href="https://code.visualstudio.com/download">Visual Studio Code</a> and I have been enjoying it that much!!!
+
+                <br></br>
+
+                Outside of working and studying, I have enjoyed spending my time with my friends and family,
+                going out to shop, and watching <a class="no-padding" href="https://www.wheeloffortune.com">Wheel of Fortune</a>,
+                weeknights at 7pm on <a class="no-padding" href="https://komonews.com">KOMO TV-4</a>, streaming this fall
+                on Hulu and Peacock!
+
+            </p>
+
+            <!-- <div class="paragraphCenter">
+                <h3 class="m-5">
+                    Here's me at the Winter 2025's Research Symposium at the HUB!
+                </h3>
+            </div>
+
+            <div class="center">
+                <img src="images/BDN_PictureForMLK.jpg" alt="Bao at the Symposium" height=500px>;
+            </div> -->
+        </main>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <h2 id="app-projects">Projects!</h2>
 
         <p>
-            Hello, everyone! I'm Bao Duy Nguyen (he/him/his). I am a current college
-            student at <a class="no-padding" href="https://www.washington.edu/">the University of Washington - Seattle Campus</a> 
-            and <strong>I have been falling in love with computers that much!</strong>
+            When I was a high school student, I made apps through code.org. These projects come
+            from AP Computer Science Principles with Ms. Meredith Blache at
+            <a class="no-padding" href="https://clevelandhs.seattleschools.org">Cleveland STEM High School</a>.
+            Just click the "Play button" on the bottom of the simulator to start!
+            When you are ready to move on, click on the "Refresh" button on the bottom of the phone.
+            You can also view my code by clicking on the "up" arrow (right next to Built on Code Studio)
+            and selecting "How it Works (View Code)!"
+        </p>
+
+        <!-- <div class="paragraphCenter"> -->
+
+
+            <!-- Project #1 -->
+               <div class="row align-items-center">
+                    <div class="col">
+                        <div class="center">
+                            <iframe src="https://studio.code.org/projects/applab/yGQWgTMUIGA_3leL3Bj3UM02QuuSmGIAPFik7o37uIE/embed"
+                            title="The Wrigley Company"
+                            height="600" width="500" allign="middle"></iframe>
+                        </div>
+                    </div>
+                    <div class="col">
+                        Here's a link to the Final Project. It's all about
+                        <a class="no-padding" href="https://en.wikipedia.org/wiki/Wrigley_Company">The Wrigley Company!</a>
+                        <br></br>
+                        The Wrigley Company is best known for its chewing gum brands, such as
+                        Doublemint, Spearmint, Juicy Fruit, and Extra/Orbit. There is a baseball park
+                        that is named after that company, and that is called "The Wrigley Park," which is
+                        home of the Chicago Cubs!
+                        <br>
+                        <div class="center">
+                            <a class="no-padding" href="https://studio.code.org/projects/applab/yGQWgTMUIGA_3leL3Bj3UM02QuuSmGIAPFik7o37uIE/"><button type="button" class="btn btn-primary m-5">View my Wrigley Project</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <!-- Project #2 -->
+
+
+            <div class="row align-items-center">
+                <div class="col">
+                    <a class="no-padding" href="https://en.wikipedia.org/wiki/Doublemint">
+                    Doublemint Gum!</a> A very popular chewing gum that has a double strength of
+                    the refreshing peppermint flavor! PLUS, there are the Doublemint Twins, the very popular
+                    campaign for this chewing gum brand!
+                    <br>
+                    <div class="center">
+                        <a class="no-padding" href="https://studio.code.org/projects/applab/f16MaM5Wwf6APPhBIM0vvifv9kjrPjdRxo1dlDbtnOc/"><button type="button" class="btn btn-primary m-5">View my Doublemint Project</button></a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="center">
+                        <iframe src="https://studio.code.org/projects/applab/f16MaM5Wwf6APPhBIM0vvifv9kjrPjdRxo1dlDbtnOc/embed" 
+                        title="Doublemint Gum"
+                        height="600" width="500" ></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project #3 -->
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="center">
+                        <iframe src="https://studio.code.org/projects/applab/f3Sctgmoju1dql4B54lu3ESF_odQUD-dolo4x5VVEmQ/embed"
+                        title="Bao's Department Store"
+                        height="600" width="500"></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    Who wants to go out shopping? I do!
+                    <br></br>
+                    There are a lot of items to be sold! Choose <strong>WHATEVER</strong>
+                    you want to buy!!! Plus, there will be "free prizes to be won!"
+                    (but don't worry, this is <strong>NOT</strong> an actual department store)
+                    <br>
+                    <div class="center">
+                        <a class="no-padding" href="https://studio.code.org/projects/applab/f3Sctgmoju1dql4B54lu3ESF_odQUD-dolo4x5VVEmQ/"><button type="button" class="btn btn-primary m-5">View my Department Store Project</button></a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- </div> -->
+
+        <hr>
+
+        <h2 id="windows-xp-story">The Windows XP Story!</h2>
+
+        <p>
+            I have to admit... <strong>I have adored <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_XP">Windows XP</a> that much!!!</strong>
+            Windows XP is my childhood operating system that I have owned for years. When I was an infant,
+            my family and I moved to the United States in the mid-2000s to start our new lives. Then, we owned our first
+            computer, which was the eMachines desktop computer running Windows XP Home Edition. My father
+            would come to me and play along with a computer together. I was so obsessed with Windows XP that I used Windows
+            Media Player to watch DVD movies, followed by watching YouTube videos using 
+            <a class="no-padding" href="https://en.wikipedia.org/wiki/Internet_Explorer">Internet Explorer</a> (I know, I loved
+            Internet Explorer that much). The Windows XP Tour was also fire; it has some music
+            that matches with the features and some soothing narrations that I have loved it so much.
 
             <br></br>
-
-            Born in <a class="no-padding" href="https://en.wikipedia.org/wiki/Hu%E1%BA%BF"> Hue, Vietnam</a> 
-            in December 17th, 2004 but grew up in <a class="no-padding" href="https://en.wikipedia.org/wiki/Seattle">Seattle, Washington</a> 
-            for over 2 decades since the mid-2000s, I have found a passion in computers since
-            I first played around when I was an infant. From there, when I was an elementary school student,
-            I learned how to type things around to make my life easier to manage while going smooth as it can be.
-            Then, as a middle school student, I was landed at the technlology classroom to master some projects
-            with Microsoft PowerPoint, Excel, Scratch, Python, and video editing. When I transitioned to
-            the high school era, I learned to code with CSS, HTML, JavaScript, and Unity, followed by the App Labs and Java.
-            I took a year gap when I was a senior in my last high school year to take Biology 100 for the full year, as well as
-            a student's library assistance for the fall semester. Going to the University of Washington Seattle Campus
-            after graduating high school in the summer of 2023 felt like a dream to me because it was the campus that I 
-            have been wanting to go to since the school took us there for some field trips, and it is in the best interest
-            that I have adored so much. From Fall 2024 to Spring 2025, I finally took CSE 12x Introductory Courses
-            to learn more about Java, and I am glad to say that it brings me back to my computer science journey.
+            From then on, I used the Acer Aspire Revo Nettop in the late-2000s,
+            which also came with Windows XP Home Edition. I continued to use XP until I upgraded to the Acer Aspire
+            laptop running Windows 7. From time to time, I have upgraded to the new devices running Windows 8,
+            then Windows 10, and now Windows 11. I'm currently using Microsoft Surface Pro, 11th Edition running
+            Windows 11 to do some tasks, but now I've revived the Windows XP nostalgia by installing XP on my old
+            Acer Aspire laptop. I use this secondary machine to play videos, sample music, and edit videos
+            with Windows Movie Maker. It's time to experience the best, experience Windows XP!
 
             <br></br>
-
-            I have been utilizing resources at UW to help me succeed for the academic journey. These include 
-            <a class="no-padding" href="https://sites.math.washington.edu/msc/">The Math Study Center,</a> 
-            <a class="no-padding" href="https://depts.washington.edu/ic/wordpress/">The OMA&D Instructional Center,</a>
-            and <a class="no-padding" href="https://courses.cs.washington.edu/courses/cse14x/ta/ipl.php">The Introductory Programming Lab.</a>
-            These resources have helped me pass, and I'm pretty sure you will, too!
-
-            <br></br>
-
-            I have been an intern for a non-profit organization named 
-            <a class="no-padding" href="https://www.computingforall.org/">Computing For All</a> that can help me
-            set up JavaScript and build this personal website this summer under
-            <a class="no-padding" href="https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/seattle-youth-employment-program"> the Seattle Youth Employment Program.</a>
-            It is very fun to code with <a class="no-padding" href="https://code.visualstudio.com/download">Visual Studio Code</a> and I have been enjoying it that much!!!
-
-            <br></br>
-
-            Outside of working and studying, I have enjoyed spending my time with my friends and family,
-            going out to shop, and watching <a class="no-padding" href="https://www.wheeloffortune.com">Wheel of Fortune</a>,
-            weeknights at 7pm on <a class="no-padding" href="https://komonews.com">KOMO TV-4</a>, streaming this fall
-            on Hulu and Peacock!
+            And if you're wondering where I got Windows XP, it was at <a class="no-padding" href="https://www.repc.com/">REPC</a> in
+            the Seattle area. REPC operates two locations: one in Seattle, and the other
+            in Tukwilla. A copy of Windows XP Professional costs around $25, and I performed a fresh install
+            on my old Acer Aspire laptop so that it wouldn't have too much bloatware. The only software that I managed
+            to install was the Microsoft Office 2000 Premium Suite, which is surprisingly compatible with XP.
+            You can also buy your own copy of Windows XP, as well as computers running XP, on eBay
+            (and I recommend selecting "Free Shipping" as one of your options!).
 
         </p>
+
         <div class="paragraphCenter">
             <p>
-                Here's me at the Winter 2025's Research Symposium at the HUB!
+                Want to learn more from the blast of the past?! You can now access the Windows XP site from 2001 
+                <a class="no-padding" href="https://web.archive.org/web/20011025145550/http://microsoft.com/windowsxp/">HERE</a>,
+                courtesy of Wayback Machine!
             </p>
+
+            <br>
+            <div class="center">
+                <a class="no-padding" href="https://web.archive.org/web/20011025145550/http://microsoft.com/windowsxp/"><button type="button" class="btn btn-primary m-1">Experience Windows XP Now!</button></a>
+            </div>
         </div>
-
-        <div class="center">
-            <img src="images/BDN_PictureForMLK.jpg" alt="Bao at the Symposium" height=500px>;
-        </div>
-    </main>
-
-    <hr>
-
-    <h2 id="app-projects">Projects!</h2>
-
-    <p>
-        When I was a high school student, I made apps through code.org. These projects come
-        from AP Computer Science Principles with Ms. Meredith Blache at
-        <a class="no-padding" href="https://clevelandhs.seattleschools.org">Cleveland STEM High School</a>.
-        Just click the "Play button" on the bottom of the simulator to start!
-        When you are ready to move on, click on the "Refresh" button on the bottom of the phone.
-        You can also view my code by clicking on the "up" arrow (right next to Built on Code Studio)
-        and selecting "How it Works (View Code)!"
-    </p>
-
-    <div class="paragraphCenter">
-        <p>
-            Here's a link to the Final Project. It's all about
-            <a class="no-padding" href="https://en.wikipedia.org/wiki/Wrigley_Company">The Wrigley Company!</a>
-        </p>
-
-        <div class="center">
-            <iframe src="https://studio.code.org/projects/applab/yGQWgTMUIGA_3leL3Bj3UM02QuuSmGIAPFik7o37uIE/embed"
-            title="The Wrigley Company"
-            height="600" width="500" allign="middle"></iframe>
-        </div>
-
-        <p>
-            Next up... <a class="no-padding" href="https://en.wikipedia.org/wiki/Doublemint">
-            Doublemint Gum!</a>
-        </p>
-
-        <div class="center">
-            <iframe src="https://studio.code.org/projects/applab/f16MaM5Wwf6APPhBIM0vvifv9kjrPjdRxo1dlDbtnOc/embed" 
-            title="Doublemint Gum"
-            height="600" width="500" ></iframe>
-        </div>
-
-        <p>
-            Who wants to go out shopping? I do!
-        </p>
-
-        <div class="center">
-            <iframe src="https://studio.code.org/projects/applab/f3Sctgmoju1dql4B54lu3ESF_odQUD-dolo4x5VVEmQ/embed"
-            title="Bao's Department Store"
-            height="600" width="500"></iframe>
-        </div>
-    </div>
-
-    <hr>
-
-    <h2 id="windows-xp-story">The Windows XP Story!</h2>
-
-    <p>
-        I have to admit... <strong>I have adored <a class="no-padding" href="https://en.wikipedia.org/wiki/Windows_XP">Windows XP</a> that much!!!</strong>
-        Windows XP is my childhood operating system that I have owned for years. When I was an infant,
-        my family and I moved to the United States in the mid-2000s to start our new lives. Then, we owned our first
-        computer, which was the eMachines desktop computer running Windows XP Home Edition. My father
-        would come to me and play along with a computer together. I was so obsessed with Windows XP that I used Windows
-        Media Player to watch DVD movies, followed by watching YouTube videos using 
-        <a class="no-padding" href="https://en.wikipedia.org/wiki/Internet_Explorer">Internet Explorer</a> (I know, I loved
-        Internet Explorer that much). The Windows XP Tour was also fire; it has some music
-        that matches with the features and some soothing narrations that I have loved it so much.
-
-        <br></br>
-        From then on, I used the Acer Aspire Revo Nettop in the late-2000s,
-        which also came with Windows XP Home Edition. I continued to use XP until I upgraded to the Acer Aspire
-        laptop running Windows 7. From time to time, I have upgraded to the new devices running Windows 8,
-        then Windows 10, and now Windows 11. I'm currently using Microsoft Surface Pro, 11th Edition running
-        Windows 11 to do some tasks, but now I've revived the Windows XP nostalgia by installing XP on my old
-        Acer Aspire laptop. I use this secondary machine to play videos, sample music, and edit videos
-        with Windows Movie Maker. It's time to experience the best, experience Windows XP!
-
-        <br></br>
-        And if you're wondering where I got Windows XP, it was at <a class="no-padding" href="https://www.repc.com/">REPC</a> in
-        the Seattle area. REPC operates two locations: one in Seattle, and the other
-        in Tukwilla. A copy of Windows XP Professional costs around $25, and I performed a fresh install
-        on my old Acer Aspire laptop so that it wouldn't have too much bloatware. The only software that I managed
-        to install was the Microsoft Office 2000 Premium Suite, which is surprisingly compatible with XP.
-        You can also buy your own copy of Windows XP, as well as computers running XP, on eBay
-        (and I recommend selecting "Free Shipping" as one of your options!).
-
-    </p>
-
-    <div class="paragraphCenter">
-        <p>
-            Want to learn more from the blast of the past?! You can now access the Windows XP site from 2001 
-            <a class="no-padding" href="https://web.archive.org/web/20011025145550/http://microsoft.com/windowsxp/">HERE</a>,
-            courtesy of Wayback Machine from the Internet Archive!
-        </p>
-    </div>
-    
-    <hr>
-
-    <h2 id="tech-skills">Technical Skills</h2>
-
-    <div class="center"> 
-        <div>
-            <p>
-                The following technical skills that I have been doing are...
-            </p>
-                <ul>
-                    <li>HTML, CSS</li>
-                    <li>JavaScript</li>
-                    <li>Java</li>
-                    <li>Microsoft Office Suites</li>
-                    <ul>
-                        <li>Microsoft Word</li>
-                        <li>Microsoft PowerPoint</li>
-                        <li>Microsoft Excel</li>
-                        <li>Microsoft Outlook</li>
-                        <li>Microsoft OneNote</li>
-                        <li>Microsoft Teams</li>
-                    </ul>
-                    <li>Microsoft Windows</li>
-                    <li>macOS, iOS, iPadOS</li>
-                    <li>Zoom</li>
-                    <li>Gmail/Google Docs Suite</li>
-                    <li>Teamwork/Communications</li>
-                </ul>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Sections of Vantage Point Videos 
-         Taken from Cleveland Publications of
-         Cleveland STEM High School, Seattle, WA
-     -->
-    <h2 id="my-videos">Videos that have me on it!</h2>
-    <p>
-        When I was in high school, I was involved in our high school-run news program
-        called Vantage Point (where we see you!). From 2021-22, I was a host of
-        SQUAA! Sports, bringing viewers our famous sporting activities. From 2022-23, I was
-        an anchor for Outside the Nest, where I brought students national, international, and local news
-        outside of school. At our personal website, we do
-        different better, and I am proud to show you some of the best moments here in this
-        website. Take a look around!
-    </p>
-    <p>
-        If you are unable to watch one of the videos here, it is due to
-        some limitations YouTube is currently having. I am aware of that and will
-        investigate this as soon as I can. In the meantime, try clicking on a link that says,
-        "Watch on YouTube,"
-        and it will direct you to the YouTube page.
-    </p>
-
-    <p>
-        UPDATE: It appears that with the url that you're on right now,
-        which is <a class="no-padding" href="https://baoxp2001.github.io">https://baoxp2001.github.io</a>, all
-        Vantage Point videos from YouTube have been working!!! I looked at the Live Server demo
-        through Microsoft Visual Studio Code and I found the reason why some videos cannot be
-        loaded here (directing you to watch on YouTube instead). Looking from the url, which is
-        <a class="no-padding" href="https://baoxp2001.github.io">https://baoxp2001.github.io</a>, can help fix
-        this issue! LOL
-    </p>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EwxKQ2B9-Sc?si=GinWgN89oKejIZoO&amp;start=327" 
-     title="YouTube video player"
-     frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/g716i67tBDE?si=Kb0_eJgZMC3gxAl8&amp;start=63"
-     title="YouTube video player"
-     frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iHQZHglUIAo?si=BCrwQFpyDwDPyl4B&amp;start=312" 
-     title="YouTube video player" frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/idDcTcy9PV0?si=H9gnfVCnPyEJcHMa&amp;start=289"
-     title="YouTube video player" frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 id="tech-skills">Skills</h2>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OqW-YcUBFsc?si=pQ9hcTOnXUfxzbvy&amp;start=102"
-     title="YouTube video player" 
-     frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="center"> 
+            <!-- <div>
+                <p>
+                    The following technical skills that I have been doing are...
+                </p>
+                    <ul>
+                        <li>HTML, CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>Microsoft Office Suites</li>
+                        <ul>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft Outlook</li>
+                            <li>Microsoft OneNote</li>
+                            <li>Microsoft Teams</li>
+                        </ul>
+                        <li>Microsoft Windows</li>
+                        <li>macOS, iOS, iPadOS</li>
+                        <li>Zoom</li>
+                        <li>Gmail/Google Docs Suite</li>
+                        <li>Teamwork/Communications</li>
+                    </ul>
+            </div> -->
+            <div class="sideBySide">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lXXMSpSrhN0?si=21mD8EWQjhHxfPlY"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Administrative Skills</h5>
+                                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p> -->
+                                <ul class="card-text">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                    </div>
+            
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/L2DNRAepZk8?si=AQnuUGnfqExo42ve&amp;start=583" title="YouTube video player"
-     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Technical Skills</h5>
+                                <ul class="card-text">
+                                    <li>Microsoft Windows</li>
+                                    <li>iOS/macOS/iPadOS</li>
+                                    <li>Microsoft Office Application</li>
+                                    <ul>
+                                        <li>Microsoft Word</li>
+                                        <li>Microsoft PowerPoint</li>
+                                        <li>Microsoft Excel</li>
+                                        <li>Microsoft Outlook</li>
+                                        <li>Microsoft OneNote</li>
+                                        <li>Microsoft Teams</li>
+                                    </ul>
+                                    <li>Virtual machines</li>
+                                    <li>Copilot</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mHG2y_Odh28?si=_5FvdFbtSQjhb0di" title="YouTube video player" frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Soft Skills</h5>
+                                <ul class="card-text">
+                                    <li>Teamwork</li>
+                                    <li>Communications</li>
+                                    <li>Leadership</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
 
-     <hr>
+            </div>
+           
 
-     <!-- Section of other videos 
-          Courtesy of Sony Pictures Television and Microsoft. 
-      -->
-
-    <h2 id="other-videos">Other videos that enjoy me the most!</h2>
-    <p>Outside of school, you'll find plenty of them that are my favorite!</p>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ldFUR_FDh2M?si=j7a6-9uNN1_VLr-b" title="YouTube video player"
-     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/zZyESLMlC3A?si=f2Mb5uVnEya2oQaU" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/ysbS8ELv3RQ?si=LpbQKuqxxobk05n6" title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <hr>
-
-    <h2 id="contact-info">Ways to contact me</h2>
-    <div class="paragraphCenter">
-        <p>Available upon request. You can also follow me on
-            <a class="no-padding" href="https://www.linkedin.com/in/bao-duy-nguyen-13a48a298/">LinkedIn!</a>
+        <!-- Sections of Vantage Point Videos 
+            Taken from Cleveland Publications of
+            Cleveland STEM High School, Seattle, WA
+        -->
+        <h2 id="my-videos">Videos that have me on it!</h2>
+        <p>
+            When I was in high school, I was involved in our high school-run news program
+            called Vantage Point (where we see you!). From 2021-22, I was a host of
+            SQUAA! Sports, bringing viewers our famous sporting activities. From 2022-23, I was
+            an anchor for Outside the Nest, where I brought students national, international, and local news
+            outside of school. At our personal website, we do
+            different better, and I am proud to show you some of the best moments here in this
+            website. Take a look around!
         </p>
-    </div>
+        <p>
+            If you are unable to watch one of the videos here, it is due to
+            some limitations YouTube is currently having. I am aware of that and will
+            investigate this as soon as I can. In the meantime, try clicking on a link that says,
+            "Watch on YouTube,"
+            and it will direct you to the YouTube page.
+        </p>
+
+        <p>
+            UPDATE: It appears that with the url that you're on right now,
+            which is <a class="no-padding" href="https://baoxp2001.github.io">https://baoxp2001.github.io</a>, all
+            Vantage Point videos from YouTube have been working!!! I looked at the Live Server demo
+            through Microsoft Visual Studio Code and I found the reason why some videos cannot be
+            loaded here (directing you to watch on YouTube instead). Looking from the url, which is
+            <a class="no-padding" href="https://baoxp2001.github.io">https://baoxp2001.github.io</a>, can help fix
+            this issue! LOL
+        </p>
+
+        <!-- To Do: Add grid later -->
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/EwxKQ2B9-Sc?si=GinWgN89oKejIZoO&amp;start=327" 
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/g716i67tBDE?si=Kb0_eJgZMC3gxAl8&amp;start=63"
+        title="YouTube video player"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/iHQZHglUIAo?si=BCrwQFpyDwDPyl4B&amp;start=312" 
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/idDcTcy9PV0?si=H9gnfVCnPyEJcHMa&amp;start=289"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/OqW-YcUBFsc?si=pQ9hcTOnXUfxzbvy&amp;start=102"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/lXXMSpSrhN0?si=21mD8EWQjhHxfPlY"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/L2DNRAepZk8?si=AQnuUGnfqExo42ve&amp;start=583" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/mHG2y_Odh28?si=_5FvdFbtSQjhb0di" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <hr>
+
+        <!-- Section of other videos 
+            Courtesy of Sony Pictures Television and Microsoft. 
+        -->
+
+        <h2 id="other-videos">Other videos that enjoy me the most!</h2>
+        <p>Outside of school, you'll find plenty of them that are my favorite!</p>
+
+        <!-- To do: add grid later -->
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/ldFUR_FDh2M?si=j7a6-9uNN1_VLr-b" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/zZyESLMlC3A?si=f2Mb5uVnEya2oQaU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="p-4" width="560" height="315" src="https://www.youtube.com/embed/ysbS8ELv3RQ?si=LpbQKuqxxobk05n6" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <hr>
+
+        <h2 id="contact-info">Ways to contact me</h2>
+        <div class="paragraphCenter">
+            <p>Available upon request. You can also follow me on...
+                <br>
+                <a class="no-padding" href="https://www.linkedin.com/in/bao-duy-nguyen-13a48a298/"><button type="button" class="btn btn-primary m-5">LinkedIn!</button></a>
+                <a class="no-padding" href="2025_BaoDuy_Resume.docx"><button type="button" class="btn btn-primary m-5">Download my Resume!</button></a>
+            </p>
 
 
-    <div class="center">
-        <h5>&copy; Copyright Bao Duy Nguyen. All trademarks shown on this website are owned by the respective owners.</h5>
-    </div>
+        </div>
+
+
+        <div class="center">
+            <footer>&copy; Copyright Bao Duy Nguyen. All trademarks shown on this website are owned by the respective owners.</footer>
+        </div>
+            </div>
+    
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+        crossorigin="anonymous"></script>
+
 
 
 </body>
 </html>
+
+
+
+
+<!-- TO-DO 
+    X Add margins to videos
+    X Apply buttons to links (project links, LinkedIn links, download resume link)
+    3. Add columns for skills (technical, soft, administrative)
+    X Add a carousel picture
+    5. Get background image instead of plain color
+    X Add horizontal margins in the nav bar
+    X Add more links (incl. the Windows.html file) to the navbar
+    8. (?) Decide if I want to include cards and accordions
+    X Apply a layout to the projects
+ -->

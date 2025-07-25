@@ -3,6 +3,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.sideBySide {
+    display: flex;
+    
+}
+
 h1, h2 {
     text-align: center;
     padding: 32px 20px;
@@ -85,4 +90,21 @@ li a:hover {
 
 hr {
     margin: 40px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.accordion-body {
+    margin: 50px;
+}
+
+/* 
+.navbar-expand {
+    position: sticky;
+} */
+
+#carousel {
+    width: 900px;
 }
