@@ -9,6 +9,8 @@ Some HTML and CSS codes come from the W3 Schools website, which is very helpful 
 Additionally, Bootstrap has a very good documentation for resources.
 Get started at https://getbootstrap.com/docs/5.3/getting-started/introduction/!
 
+# PHOTO CREDITS
+Photo by Jeanson Wong, Spencer DeMera, and Chris Barbalis on Unsplash
 
 # UPDATE 1 (as of July 18th, 2025)
 Some major changes are coming to this website! These include the addition to the Wonderful World of Windows website (hopefully it will work), and the navigation bar!
@@ -16,3 +18,10 @@ Some major changes are coming to this website! These include the addition to the
 # UPDATE 2 (as of July 25th, 2025)
 Another major changes are coming! These include Bootstrap's navigation bar,
 carousel for slideshows, etc.
+
+# UPDATE 3 (as of July 30th, 2025)
+New updates include a background image of a green hill in the blue sky,
+improved cards from Bootstrap, text color change for better readibility (hopefully),
+added link to the Microsoft Camp Trip (coming soon!),
+and a title change for the "windows.html" file from "The Wonderful World of Windows"
+to "The Best of Windows".
