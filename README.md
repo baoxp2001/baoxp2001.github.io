@@ -3,7 +3,7 @@ The official website from GitHub of me!
 
 Created in partnership with Computing for All, a non-profit organization, by Bao Duy Nguyen under the Seattle Youth Employment Program's Summer Internship Program.
 
-The website is very easy to use. It has videos and other links, too!
+The website is easy to use. It has videos and other links, too!
 Some HTML and CSS codes come from the W3 Schools website, which is very helpful if you need to go over some techniques. You can learn more at www.w3schools.com!
 
 Additionally, Bootstrap has a very good documentation for resources.
@@ -25,3 +25,11 @@ improved cards from Bootstrap, text color change for better readibility (hopeful
 added link to the Microsoft Camp Trip (coming soon!),
 and a title change for the "windows.html" file from "The Wonderful World of Windows"
 to "The Best of Windows".
+
+# UPDATE 4 (as of August 1st, 2025)
+It's the first month of August, and that means more major updates!
+These include a carousel with slideshows of the Microsoft tour in August 2024 (more on that later), as well as fixes to the technical skills portion that has some bullets not ordered
+or aligned properly, the completion of "The Best of Windows" site with the addition
+to Windows 10 and 11, and fixed margins in the navigation bar.
+
+To soft-launch the Microsoft Camp Blog webpage, a carousel featuring photos of the Microsoft Headquarters tour from the Youth At Work program, under the Seattle Parks and Recreations department, dated August 9th, 2024, has been added. This page will be updated beginning August 18th (or as soon as possible) with how Bao did so far during the camp to finish the SYEP (Seattle Youth Employment Program) Summer Internship program strong (unless things have changed)!
