@@ -33,3 +33,7 @@ or aligned properly, the completion of "The Best of Windows" site with the addit
 to Windows 10 and 11, and fixed margins in the navigation bar.
 
 To soft-launch the Microsoft Camp Blog webpage, a carousel featuring photos of the Microsoft Headquarters tour from the Youth At Work program, under the Seattle Parks and Recreations department, dated August 9th, 2024, has been added. This page will be updated beginning August 18th (or as soon as possible) with how Bao did so far during the camp to finish the SYEP (Seattle Youth Employment Program) Summer Internship program strong (unless things have changed)!
+
+# UPDATE 5 (as of August 8th, 2025)
+Another update includes a full launch of "The Journey of the Microsoft Camp" webpage, starting
+with a prologue to the story. This website will be updated on a daily basis based on a chapter of a day. Also in that page, we have more pictures in the carousel, bringing a total of 25 pictures instead of the initial 20.
