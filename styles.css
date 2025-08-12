@@ -6,10 +6,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    /* opacity: 1; */
+    
 }
 
-/* .container {
-    background-color: aqua;
+
+.container {
+    background-color: green;
+}
+
+/* div.transparent-color {
+    opacity: 0.5;
 } */
 
 .textColorBlack {
@@ -33,7 +40,8 @@ footer {
 
 p {
     padding: 30px 25px;
-    color: white
+    color: white;
+    text-align: left;
 }
 
 .center {

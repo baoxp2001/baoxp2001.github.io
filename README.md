@@ -37,3 +37,6 @@ To soft-launch the Microsoft Camp Blog webpage, a carousel featuring photos of t
 # UPDATE 5 (as of August 8th, 2025)
 Another update includes a full launch of "The Journey of the Microsoft Camp" webpage, starting
 with a prologue to the story. This website will be updated on a daily basis based on a chapter of a day. Also in that page, we have more pictures in the carousel, bringing a total of 25 pictures instead of the initial 20.
+
+# UPDATE 6 (as of August 12th, 2025)
+New updates include adding green color to the container for easy readability. In the "Windows" page, more Windows versions have been added, such as versions 1.01 up to 3.x (including NT). In the home page, the "TechZone" website has been added under the "Projects" section.
