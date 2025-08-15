@@ -12,7 +12,9 @@ body {
 
 
 .container {
-    background-color: green;
+    background-color: rgba(0, 133, 29, 0.35);
+    /* opacity: 0.5; */
+    
 }
 
 /* div.transparent-color {

@@ -40,3 +40,7 @@ with a prologue to the story. This website will be updated on a daily basis base
 
 # UPDATE 6 (as of August 12th, 2025)
 New updates include adding green color to the container for easy readability. In the "Windows" page, more Windows versions have been added, such as versions 1.01 up to 3.x (including NT). In the home page, the "TechZone" website has been added under the "Projects" section.
+
+# UPDATE 7 (as of August 15th, 2025)
+New updates include fixes to some texts/buttons not aligned properly with the margin,
+fixes to the "h6" tag from the Microsoft Camp page, and remove dashes for the Windows 3.x button links from the Windows page. Additionally, for easy readability, a transparent green color container has been added.
