@@ -44,3 +44,6 @@ New updates include adding green color to the container for easy readability. In
 # UPDATE 7 (as of August 15th, 2025)
 New updates include fixes to some texts/buttons not aligned properly with the margin,
 fixes to the "h6" tag from the Microsoft Camp page, and remove dashes for the Windows 3.x button links from the Windows page. Additionally, for easy readability, a transparent green color container has been added.
+
+# UPDATE 7.1 (as of August 15th, 2025)
+Minor update! Align the text to center in the carousel of the home page.
