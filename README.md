@@ -50,3 +50,7 @@ Minor update! Align the text to center in the carousel of the home page.
 
 # UPDATE 7.2 (as of August 15th, 2025)
 NEW! Responsive YouTube embeds and fixes to carousel for mobile users
+
+# UPDATE 8.0 (as of August 18th, 2025)
+Update Day 1 under the Microsoft Camp page! This page
+will be updated daily.
