@@ -54,3 +54,6 @@ NEW! Responsive YouTube embeds and fixes to carousel for mobile users
 # UPDATE 8.0 (as of August 18th, 2025)
 Update Day 1 under the Microsoft Camp page! This page
 will be updated daily.
+
+# UPDATE 8.1 (as of August 19th, 2025)
+Update Day 2 under the Microsoft Camp page.
