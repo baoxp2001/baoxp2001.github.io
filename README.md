@@ -57,3 +57,6 @@ will be updated daily.
 
 # UPDATE 8.1 (as of August 19th, 2025)
 Update Day 2 under the Microsoft Camp page.
+
+# UPDATE 8.2 (as of August 20th, 2025)
+Update Day 3 under the Microsoft Camp page.
