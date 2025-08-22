@@ -60,3 +60,6 @@ Update Day 2 under the Microsoft Camp page.
 
 # UPDATE 8.2 (as of August 20th, 2025)
 Update Day 3 under the Microsoft Camp page.
+
+# UPDATE 8.3 (as of August 22nd, 2025)
+Update Day 4 under the Microsoft Camp page.
