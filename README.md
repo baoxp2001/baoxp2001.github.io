@@ -66,3 +66,7 @@ Update Day 4 under the Microsoft Camp page.
 
 # UPDATE 8.4 (as of August 22nd, 2025)
 Update Day 5 (THE FINALE!) under the Microsoft Camp page.
+
+# UPDATE 9 (as of August 14th, 2026)
+NEW FOR 2026!!! Bao's Soda Haul Page. This page will be updated as soon as I tried the soda,
+with reviews and everything.
